@@ -1,0 +1,20 @@
+{
+  "name": "impresscms/smarty-plugins",
+  "description": "the plugins developed by ImpressCMS to complement Smarty",
+  "minimum-stability": "stable",
+  "license": "GPL-2",
+  "authors": [
+    {
+      "name": "skenow",
+      "email": "skenow@impresscms.org"
+    },
+    {
+      "name": "stranger",
+      "email": "stranger@impresscms.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.8",
+    "smarty/smarty": "2.6.*"
+  }
+}
