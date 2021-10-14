@@ -2,7 +2,9 @@
   "name": "impresscms/smarty-plugins",
   "description": "the plugins developed by ImpressCMS to complement Smarty",
   "minimum-stability": "stable",
-  "license": "GPL-2",
+  "license": "GPL-2.0-only",
+  "abandoned": true,
+  "type": "library",
   "authors": [
     {
       "name": "skenow",
@@ -16,5 +18,13 @@
   "require": {
     "php": ">=5.3.8",
     "smarty/smarty": "2.6.*"
+  },
+  "suggest": {
+    "imponeer/smarty-db-resource": "Does same thing as resource.db.php from this package",
+    "imponeer/smarty-xo": "Does same thing as xoAppUrl, xoImgUrl, xoInboxCount, xoPageNav in this package",
+    "imponeer/smarty-includeq": "For same thing as includeq from this package",
+    "imponeer/smarty-image": "For same thing as resize_image from this package",
+    "imponeer/smarty-foreachq": "For same thing as foreachq from this package",
+    "imponeer/smarty-debug": "For same thing as debug_print_var from this package"
   }
 }
